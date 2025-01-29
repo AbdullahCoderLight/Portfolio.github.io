@@ -5,17 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abdullah Salman - Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Hamburger Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <!-- Navigation -->
   <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+      <div class="logo">Abdullah Salman</div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- Hero Section -->
@@ -47,7 +55,7 @@
 
   <!-- About Section -->
   <section id="about" class="about">
-    <img src="abdullah salman profile pic 2.png" alt="Your Name">
+    <img src="abdullah salman pic.png" alt="Your Name">
     <div>
       <h2>About Me</h2>
       <p>I'm a passionate graphic designer with 3+ years of experience in branding and visual storytelling. I specialize in creating impactful designs that resonate with audiences.</p>
@@ -64,7 +72,7 @@
       </div>
       <div class="testimonial-card">
         <p>"Creative and professional. Exceeded expectations!"</p>
-        <h4>— Mr Fahran</h4>
+        <h4>— Mr Farhan</h4>
       </div>
       <!-- Add more testimonials here -->
     </div>
@@ -83,6 +91,7 @@
         <p>+92 3366233322</p>
       </div>
     </div>
+
     <!-- <form id="contact-form">
       <input type="text" id="name" placeholder="Your Name" required>
       <input type="email" id="email" placeholder="Your Email" required>
